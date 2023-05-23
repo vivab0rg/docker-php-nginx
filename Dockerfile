@@ -8,7 +8,7 @@ WORKDIR /var/www/html
 # Install packages and remove default server definition
 RUN apk add --no-cache \
   curl \
-  nginx \
+  nginx-debug \
   php81 \
   php81-ctype \
   php81-curl \
